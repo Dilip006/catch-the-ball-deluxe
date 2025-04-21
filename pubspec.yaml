@@ -1,0 +1,26 @@
+name: catch_the_ball_deluxe
+description: A fun and challenging game where you catch falling balls with a paddle, featuring levels, power-ups, and leaderboards.
+version: 1.0.0
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  audioplayers: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+    - assets/sounds/catch.wav
+    - assets/sounds/miss.wav
+    - assets/sounds/powerup.wav
+    - assets/sounds/background.mp3
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
